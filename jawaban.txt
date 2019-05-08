@@ -1,0 +1,14 @@
+Perbedaan Inner , Left dan Right Join pada CI
+-------------------------------------------------------------------------------------------------
+Inner Join :
+query utk inner join digunakan hanya untuk data-data yang mempunyai nilai 
+sama antara id pada table 1 dan id pada table 2 atau pun seluruh tabel 
+yang tampil.
+
+Left Join :
+Berbeda dengan INNER JOIN, LEFT JOIN akan menampilkan data-data 
+yang tidak berelasi. Namun pada table 1 ( sebelah kiri ), data yg tidak berelasi akan bernilai NULL / tidak ditampilkan.
+
+Right Join :
+Sama dengan LEFT JOIN, RIGHT JOIN akan menampilkan data-data yang tidak berelasi.
+Tapi right kebalikan dari LEFT JOIN, pada table 2 (table kanan), data yg tidak berelasi akan bernilai NULL /tidak ditampilkan.
